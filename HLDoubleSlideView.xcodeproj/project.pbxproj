@@ -15,6 +15,9 @@
 		08E36F161CA0194E00C64C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E36F141CA0194E00C64C59 /* LaunchScreen.storyboard */; };
 		08E36F211CA0194E00C64C59 /* HLDoubleSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E36F201CA0194E00C64C59 /* HLDoubleSlideViewTests.m */; };
 		08E36F2C1CA0194E00C64C59 /* HLDoubleSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E36F2B1CA0194E00C64C59 /* HLDoubleSlideViewUITests.m */; };
+		08E36F3B1CA0198100C64C59 /* HLDoubleSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E36F3A1CA0198100C64C59 /* HLDoubleSlideView.m */; };
+		08E36F3E1CA01AD900C64C59 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E36F3D1CA01AD900C64C59 /* UIView+Add.m */; };
+		08E36F411CA01CAA00C64C59 /* progressImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E36F401CA01CAA00C64C59 /* progressImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		08E36F271CA0194E00C64C59 /* HLDoubleSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLDoubleSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E36F2B1CA0194E00C64C59 /* HLDoubleSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDoubleSlideViewUITests.m; sourceTree = "<group>"; };
 		08E36F2D1CA0194E00C64C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E36F391CA0198100C64C59 /* HLDoubleSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDoubleSlideView.h; sourceTree = "<group>"; };
+		08E36F3A1CA0198100C64C59 /* HLDoubleSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDoubleSlideView.m; sourceTree = "<group>"; };
+		08E36F3C1CA01AD900C64C59 /* UIView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
+		08E36F3D1CA01AD900C64C59 /* UIView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
+		08E36F401CA01CAA00C64C59 /* progressImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,11 @@
 		08E36F051CA0194E00C64C59 /* HLDoubleSlideView */ = {
 			isa = PBXGroup;
 			children = (
+				08E36F3C1CA01AD900C64C59 /* UIView+Add.h */,
+				08E36F401CA01CAA00C64C59 /* progressImage.png */,
+				08E36F3D1CA01AD900C64C59 /* UIView+Add.m */,
+				08E36F391CA0198100C64C59 /* HLDoubleSlideView.h */,
+				08E36F3A1CA0198100C64C59 /* HLDoubleSlideView.m */,
 				08E36F091CA0194E00C64C59 /* AppDelegate.h */,
 				08E36F0A1CA0194E00C64C59 /* AppDelegate.m */,
 				08E36F0C1CA0194E00C64C59 /* ViewController.h */,
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E36F411CA01CAA00C64C59 /* progressImage.png in Resources */,
 				08E36F161CA0194E00C64C59 /* LaunchScreen.storyboard in Resources */,
 				08E36F131CA0194E00C64C59 /* Assets.xcassets in Resources */,
 				08E36F111CA0194E00C64C59 /* Main.storyboard in Resources */,
@@ -271,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E36F0E1CA0194E00C64C59 /* ViewController.m in Sources */,
+				08E36F3B1CA0198100C64C59 /* HLDoubleSlideView.m in Sources */,
 				08E36F0B1CA0194E00C64C59 /* AppDelegate.m in Sources */,
+				08E36F3E1CA01AD900C64C59 /* UIView+Add.m in Sources */,
 				08E36F081CA0194E00C64C59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
